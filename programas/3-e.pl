@@ -1,0 +1,13 @@
+ejercicio:-display('Ingrese a: '),
+	read(A),
+	display('Ingrese b: '),
+	read(B),
+	display('Ingrese c: '),
+	read(C),
+        display('Ingrese d: '),
+        read(D),
+	display('Ingrese e: '),
+	read(E),
+	Y is B/((2*C-E)^4/A-((5*C+6)/(4*D)))/E,
+	display(' El valor de Y es : '),
+	display(Y).
